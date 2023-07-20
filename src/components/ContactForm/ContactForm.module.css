@@ -1,0 +1,52 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-size: 20px;
+}
+
+.label {
+    font-weight: 500;
+}
+
+.nameInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.numberInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input {
+    height: 30px;
+    font-size: 20px;
+}
+
+.btnAddContact {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(13, 141, 253);
+    cursor: pointer;
+}
+
+.btnAddContact:active {
+    outline: none;
+    box-shadow: 0 0 0 2px #95a8d1;
+}
+
+.btnAddContact:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 5px;
+    color: antiquewhite;
+    transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,26 @@
+.contact {
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.btnDelete {
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btnDelete:active {
+    outline: none;
+    background-color: #95a8d1;
+}
+
+.btnDelete:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 5px;
+}
